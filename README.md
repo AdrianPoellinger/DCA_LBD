@@ -1,3 +1,17 @@
+# Quick start
+npm i webpack
+npm i webpack-cli
+node -v
+nvm install 16
+nvm use 16
+npm i node-polyfill-webpack-plugin
+npm i three@0.135
+npm i three@0.135 web-ifc-viewer
+npm run build
+npm i @comunica/query-sparql
+
+
+
 # How to build your own Linked Building Data Frontend tool using IFC.js and Comunica
 🚀 Build a web-based linked building data frontend in only 20 steps!
 
