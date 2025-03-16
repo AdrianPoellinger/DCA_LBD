@@ -1,0 +1,111 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://konstruktionsarchiv.ethz.ch/#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+## Site
+inst:site_49c24f44-9e59-46e7-a811-220d4ae773bc
+        bot:hasBuilding            inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf ;
+        rdf:type                   bot:Site ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:refElevationIfcSite  inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        owl:sameAs                 inst:IfcSite_154 .
+
+
+## building_49c24f44
+
+inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf
+        bot:hasStorey          inst:storey_1KLoJ2lZH9FRD2JiAQMRIt ;
+        rdf:type               bot:Building ;
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf ;
+        owl:sameAs             inst:IfcBuilding_137 .
+
+
+## storey
+inst:storey_1KLoJ2lZH9FRD2JiAQMRIt
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_1KLoJ2lZH9FRD2JiAQMRIt ;
+        props:longNameIfcSpatialElement  inst:longNameIfcSpatialElement_1KLoJ2lZH9FRD2JiAQMRIt ;
+        rdf:type                   bot:Storey ;
+        props:nameIfcRoot          inst:nameIfcRoot_1KLoJ2lZH9FRD2JiAQMRIt ;
+        props:elevationIfcBuildingStorey  inst:elevationIfcBuildingStorey_1KLoJ2lZH9FRD2JiAQMRIt ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        owl:sameAs                 inst:IfcBuildingStorey_150 ;
+        bot:containsElement        inst:beam_0S5Tu2n1TEse4E8i2t1al6 .
+
+
+## beam
+inst:beam_0S5Tu2n1TEse4E8i2t1al6
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_0S5Tu2n1TEse4E8i2t1al6 ;
+        props:nameIfcRoot      inst:nameIfcRoot_0S5Tu2n1TEse4E8i2t1al6 ;
+        props:batid            inst:batid_0S5Tu2n1TEse4E8i2t1al6 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12328 .
+
+## globalID
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "13CZiUXZcn6mxcEpRxRwTH3" .
+
+inst:globalIdIfcRoot_0S5Tu2n1TEse4E8i2t1al6
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtGG" .
+
+inst:globalIdIfcRoot_1KLoJ2lZH9FRD2JiAQMRIt
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8Wsr68h1" .
+
+## BatID
+inst:batid_0S5Tu2n1TEse4E8i2t1al6
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166041" .
+
+## Name
+inst:nameIfcRoot_0S5Tu2n1TEse4E8i2t1al6
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "WandXX" .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Default" .
+
+inst:nameIfcRoot_1KLoJ2lZH9FRD2JiAQMRIt
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:longNameIfcSpatialElement_1KLoJ2lZH9FRD2JiAQMRIt
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+## StoreyNo
+
+inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:elevationIfcBuildingStorey_1KLoJ2lZH9FRD2JiAQMRIt
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:objectTypeIfcObject_1KLoJ2lZH9FRD2JiAQMRIt
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ebene:Ebene 1" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3cMOX8SLbBwfHuTiyseadZ" .
+
+inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023ca90
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3EpJtRvZ1EtxhPss808ygG" .
