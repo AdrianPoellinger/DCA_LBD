@@ -60,7 +60,7 @@ inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf
 
 inst:globalIdIfcRoot_0S5Tu2n1TEse4E8i2t1al6
         rdf:type      <https://w3id.org/opm#Property> ;
-        schema:value  "0wJCZjQXXEZhDPFu7LjtGG" .
+        schema:value  "0S5Tu2n1TEse4E8i2t1al6" .
 
 inst:globalIdIfcRoot_1KLoJ2lZH9FRD2JiAQMRIt
         rdf:type      <https://w3id.org/opm#Property> ;
