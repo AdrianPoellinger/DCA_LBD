@@ -47,8 +47,7 @@ DCA:OpenFlatSite
 DCA:OpenFlat
         a                      	bot:Building , bop:FeatureOfInterest ;
 		
-        bot:hasStorey          	DCA:Basement , DCA:Ground Floor
-, DCA:First Floor ;
+        bot:hasStorey          	DCA:Basement , DCA:Ground Floor, DCA:First Floor ;
         
 		bpt:hasGUID				"413b2296-9449-4a05-8f3c-f009b9f294dc" ;
 		bpt:hasGlobalIdIfcRoot	"3CZiUXZcn6mxcEpRxRwTH3" ;
