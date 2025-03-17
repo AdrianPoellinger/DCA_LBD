@@ -47,7 +47,7 @@ DCA:OpenFlatSite
 DCA:OpenFlat
         a                      	bot:Building , bop:FeatureOfInterest ;
 		
-        bot:hasStorey          	DCA:Basement , DCA:Ground Floor, DCA:First Floor ;
+        bot:hasStorey          	DCA:Basement , DCA:GroundFloor, DCA:FirstFloor ;
         
 		bpt:hasGUID				"413b2296-9449-4a05-8f3c-f009b9f294dc" ;
 		bpt:hasGlobalIdIfcRoot	"3CZiUXZcn6mxcEpRxRwTH3" ;
@@ -70,7 +70,7 @@ DCA:Basement
 		bpt:hasElevation			"9." .
 
 
-DCA:Ground Floor
+DCA:GroundFloor
         a                         	bot:Storey , bop:FeatureOfInterest ;
 		
         bot:containsElement        	DCA:roof_d576136d-a0bf-4ebc-8644-d1110b3a9274 ;
@@ -80,7 +80,7 @@ DCA:Ground Floor
 		bpt:hasName					"Ground Floor" ;
 		bpt:hasElevation			"12000." .
 
-DCA:First Floor
+DCA:FirstFloor
         a                         	bot:Storey , bop:FeatureOfInterest ;
 		
         bot:containsElement        	DCA:roof_d576136d-a0bf-4ebc-8644-d1110b3a9274 ;
