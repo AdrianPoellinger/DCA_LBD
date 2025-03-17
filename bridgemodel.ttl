@@ -14,6 +14,9 @@
 @prefix inst: <https://asbingowl.org/TwinGenDemo/BW000#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 
+@prefix rdf:   	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .		# Resource Description Framework
+
+
 inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023ca90
         rdf:type      <https://w3id.org/opm#Property> ;
         schema:value  "Gelaender Sued:Gelaender Sued:189673" .
