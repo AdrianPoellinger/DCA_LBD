@@ -401,7 +401,8 @@ inst:batid_4f1c5e37-811c-429e-8ae8-e6037f337660
         schema:value  "148702" .
 
 inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c66
-        rdf:type      <https://w3id.org/opm#Property> ;
+        rdf:type        bot:Element ;
+        ##rdf:type      <https://w3id.org/opm#Property> ;
         schema:value  "1tRKe4ZX99ZgQwI7qfgLnc" .
 
 inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330ea9
