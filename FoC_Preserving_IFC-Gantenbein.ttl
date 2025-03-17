@@ -102,436 +102,436 @@ DCA:wall_257b21c3-0d5c-462f-bf57-fd20746fbf48
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "257b21c3-0d5c-462f-bf57-fd20746fbf48" ;
         bpt:hasGlobalIdIfcRoot      "2R1eIejJfATeFan1D0RZkv" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_0_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_0_0" ;
         bpt:hasGlobalIdIfcRoot      "0aTsbSQkbCef0ogl9wSGyk" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_0_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_0_1" ;
         bpt:hasGlobalIdIfcRoot      "2nGJD_GQX0QeeZpSI3JRlF" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_0_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_0_2" ;
         bpt:hasGlobalIdIfcRoot      "2z9mJGpmz6Af75cX59bg6V" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_0_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_0_3" ;
         bpt:hasGlobalIdIfcRoot      "2UohbdSjH5hwcJDCs$CXxo" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_1_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_1_0" ;
         bpt:hasGlobalIdIfcRoot      "1IUW4zyA55cwiP9Mttx3Lt" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_1_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_1_1" ;
         bpt:hasGlobalIdIfcRoot      "0hpfOcxd97Q8haDEFC2HDI" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_1_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_1_2" ;
         bpt:hasGlobalIdIfcRoot      "1BXcsZlprBAxmIvltx3NDM" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_1_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_1_3" ;
         bpt:hasGlobalIdIfcRoot      "2Mewo2Rmn4V8IF65pXXTO7" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_2_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_2_0" ;
         bpt:hasGlobalIdIfcRoot      "0DLA__QAL1kxdaJa7_UFbn" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_2_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_2_1" ;
         bpt:hasGlobalIdIfcRoot      "1jhLApHSjE_eRbFnU9BjxP" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_2_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_2_2" ;
         bpt:hasGlobalIdIfcRoot      "0znpNErTb1SvYvZ8_TL0RF" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_2_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_2_3" ;
         bpt:hasGlobalIdIfcRoot      "1BK99Ga1T6zAg6eio8GXLY" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_3_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_3_0" ;
         bpt:hasGlobalIdIfcRoot      "0NVZI5LYPEcPKUjPuehchZ" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_3_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_3_1" ;
         bpt:hasGlobalIdIfcRoot      "0agwkeNkzE3AQ_DDg8yVXG" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_3_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_3_2" ;
         bpt:hasGlobalIdIfcRoot      "0CJihzNmr4CxMUVOzMMgU7" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_3_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_3_3" ;
         bpt:hasGlobalIdIfcRoot      "11dsTLfbb9nBN1SBFzaHac" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_4_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_4_0" ;
         bpt:hasGlobalIdIfcRoot      "1sgF20Y8jDHe56oFveWL6q" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_4_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_4_1" ;
         bpt:hasGlobalIdIfcRoot      "0$NIybfBLAXw6Zkw_xdqrz" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_4_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_4_2" ;
         bpt:hasGlobalIdIfcRoot      "2QRXGcV_PAFAGzl4kEFdp3" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_4_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_4_3" ;
         bpt:hasGlobalIdIfcRoot      "3zSBYXfrXD9BwFuJ7QqNDH" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_5_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_5_0" ;
         bpt:hasGlobalIdIfcRoot      "1V62m0d_DD_wOvlK94sZbM" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_5_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_5_1" ;
         bpt:hasGlobalIdIfcRoot      "29lvtyRxr54wkpFROljO3u" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_5_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_5_2" ;
         bpt:hasGlobalIdIfcRoot      "3a0de7Pg175w5LST9tnpox" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_5_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_5_3" ;
         bpt:hasGlobalIdIfcRoot      "3VPBbd96r4XvCAM704Hobr" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_6_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_6_0" ;
         bpt:hasGlobalIdIfcRoot      "1mYn_QxLfDmgqupXlr7uVG" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_6_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_6_1" ;
         bpt:hasGlobalIdIfcRoot      "3Jn2GmNWr5Kfd8638e8KAW" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_6_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_6_2" ;
         bpt:hasGlobalIdIfcRoot      "0oclwKhFHETAdhubCZPvKz" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C2_6_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C2_6_3" ;
         bpt:hasGlobalIdIfcRoot      "1kAYtafWX32AcsiduyIqN4" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_0_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_0_0" ;
         bpt:hasGlobalIdIfcRoot      "1LCGGWqJTEuQO16k7xrMEu" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_0_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_0_1" ;
         bpt:hasGlobalIdIfcRoot      "1r48DeCuH29hpZpn17cnc4" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_0_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_0_2" ;
         bpt:hasGlobalIdIfcRoot      "2mYcW$y1b4rvKPs2bS6eR5" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_0_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_0_3" ;
         bpt:hasGlobalIdIfcRoot      "3r6WMFX9z6x9ae4fejoufX" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_1_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_1_0" ;
         bpt:hasGlobalIdIfcRoot      "2Ll$gOXLL8jvwFohDoXray" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_1_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_1_1" ;
         bpt:hasGlobalIdIfcRoot      "1mlLBGx7TDjPxu3nW2SUPc" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_1_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_1_2" ;
         bpt:hasGlobalIdIfcRoot      "2dfCMfTBr0DxvGZyHrNuxu" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_C3_1_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_C3_1_3" ;
         bpt:hasGlobalIdIfcRoot      "2xM2OY_8X2jRjdCNJe_EIw" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_0_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_0_0" ;
         bpt:hasGlobalIdIfcRoot      "0Mr4i2lBH1Rhl56YT4sSPb" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_0_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_0_1" ;
         bpt:hasGlobalIdIfcRoot      "3nfnI$PQX8IfcZQhsWcfyR" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_0_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_0_2" ;
         bpt:hasGlobalIdIfcRoot      "043spU5lX2h8OWMxepcUv0" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_0_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_0_3" ;
         bpt:hasGlobalIdIfcRoot      "0kZ_m7xmXAk8IzUog85oVi" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_1_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_1_0" ;
         bpt:hasGlobalIdIfcRoot      "31b6dxDdHBTwDRpf3$2tXo" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_1_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_1_1" ;
         bpt:hasGlobalIdIfcRoot      "3YivSVaFD5aBgLB6qecrDM" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_1_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_1_2" ;
         bpt:hasGlobalIdIfcRoot      "3YLaVv7SfEWRldgxIVt8BH" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_1_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_1_3" ;
         bpt:hasGlobalIdIfcRoot      "3wyRcokiD4Zh6CcrwOhVV4" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_2_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_2_0" ;
         bpt:hasGlobalIdIfcRoot      "0M39hGH5j4dQS1EO31qbsS" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_2_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_2_1" ;
         bpt:hasGlobalIdIfcRoot      "3eMna1Q_HDk8Ugzc7NKHI1" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_2_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_2_2" ;
         bpt:hasGlobalIdIfcRoot      "377zRgPWT49RKuSNUC0y1X" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_2_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_2_3" ;
         bpt:hasGlobalIdIfcRoot      "3bvj2jVWrBZfhXg2zZGM98" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_3_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_3_0" ;
         bpt:hasGlobalIdIfcRoot      "12FYyPj$L9Cw_Qp32jSuhu" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_3_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_3_1" ;
         bpt:hasGlobalIdIfcRoot      "1XhhSmgnL96fFYlzUvq9yY" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_3_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_3_2" ;
         bpt:hasGlobalIdIfcRoot      "0HM$C_u2D3WgtqsO2BUz3I" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_3_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_3_3" ;
         bpt:hasGlobalIdIfcRoot      "1vw5SjLKT5B8Ia5$nciVhd" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_4_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_4_0" ;
         bpt:hasGlobalIdIfcRoot      "0LqrFNBbvC8RZgMzbyMWTt" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_4_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_4_1" ;
         bpt:hasGlobalIdIfcRoot      "00gAZsmOzFfO2aX0QY_VRt" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_4_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_4_2" ;
         bpt:hasGlobalIdIfcRoot      "1Djl52beD9C96KqRkaJR8q" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_4_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_4_3" ;
         bpt:hasGlobalIdIfcRoot      "0U0_HB3Rj4MxS_S1E4Luw5" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_5_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_5_0" ;
         bpt:hasGlobalIdIfcRoot      "1eXV7I2s97bgvgOfi_dChp" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_5_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_5_1" ;
         bpt:hasGlobalIdIfcRoot      "1IKwYwGrHEvB6fsdNIS7l0" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_5_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_5_2" ;
         bpt:hasGlobalIdIfcRoot      "237GIRD9v4FQKsL$bxB0Lz" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_5_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_5_3" ;
         bpt:hasGlobalIdIfcRoot      "1GMVJVBfr9HgGtZ6IlkmoJ" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_6_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_6_0" ;
         bpt:hasGlobalIdIfcRoot      "2wBQoz$VrDqhR9VwMkVr3u" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_6_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_6_1" ;
         bpt:hasGlobalIdIfcRoot      "17SNIlJKX00wHYg7n$wP_m" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_6_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_6_2" ;
         bpt:hasGlobalIdIfcRoot      "12$zz_RqP64hfhecc_cJnU" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_L_6_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_L_6_3" ;
         bpt:hasGlobalIdIfcRoot      "2OBFpis$1DVPfZ4lUl7aEN" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_0_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_0_0" ;
         bpt:hasGlobalIdIfcRoot      "3vMb67Ppb1NulLN6J_HVhw" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_0_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_0_1" ;
         bpt:hasGlobalIdIfcRoot      "2BuWnP1O98pwWLuA6acCQt" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_0_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_0_2" ;
         bpt:hasGlobalIdIfcRoot      "0sqC6hr152fB2A$2KcNsXt" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_0_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_0_3" ;
         bpt:hasGlobalIdIfcRoot      "3nQR8sCbvDSxLWFp8bIOc2" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_1_0
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_1_0" ;
         bpt:hasGlobalIdIfcRoot      "2icGYTsOH0jvC4qzHb84_X" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_1_1
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_1_1" ;
         bpt:hasGlobalIdIfcRoot      "3t4ltp_WLBC8DkM_Wz4pAt" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_1_2
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_1_2" ;
         bpt:hasGlobalIdIfcRoot      "0L2KFbBZj2SBH$hNlrnmRY" ;
-        bpt:hasBatID                "$" ;
+
 
 DCA:wall_Wall_Q_1_3
         a                           beo:Wall , bot:Element , bop:FeatureOfInterest ;
         bpt:hasGUID                 "Wall_Q_1_3" ;
         bpt:hasGlobalIdIfcRoot      "1zZIwyV394pfUixXMnV8SC" ;
-        bpt:hasBatID                "$" ;
+
