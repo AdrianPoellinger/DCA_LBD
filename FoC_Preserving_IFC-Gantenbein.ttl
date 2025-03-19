@@ -223,7 +223,7 @@ DCA:wall_Wall_C2_4_2
         bpt:hasGUID                 "Wall_C2_4_2" ;
         bpt:hasGlobalIdIfcRoot      "2QRXGcV_PAFAGzl4kEFdp3" ;
         bpt:hasBatID                "None" ;
-        crm:P187_has_production_plan    <https://raw.githubusercontent.com/AdrianPoellinger/DICAR_Data/refs/heads/master/Data/ExampleWall/pos12_Brick.dat?token=GHSAT0AAAAAADAQAATFJ2PNQANVKYIBE6MSZ62ZAIA>;
+        crm:P187_has_production_plan    <https://raw.githubusercontent.com/AdrianPoellinger/DICAR_Data/refs/heads/master/Data/ExampleWall/pos12_Brick.dat?token=GHSAT0AAAAAADAQAATESVARDCZCIE6KFYVIZ6227AQ>;
         crm:P108i_was_produced_by   DCA:Wall_C2_4_2_Production.
 
 DCA:Wall_C2_4_2_Production
