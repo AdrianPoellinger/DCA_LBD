@@ -224,6 +224,7 @@ DCA:wall_Wall_C2_4_2
         bpt:hasGlobalIdIfcRoot      "2QRXGcV_PAFAGzl4kEFdp3" ;
         bpt:hasBatID                "None" ;
         crm:P187_has_production_plan    <https://raw.githubusercontent.com/AdrianPoellinger/DCA_LBD/refs/heads/main/pos12_Brick.dat>;
+        crm:P187_has_production_plan    <https://raw.githubusercontent.com/AdrianPoellinger/DCA_LBD/refs/heads/main/walls060707.src>;
         crm:P108i_was_produced_by   DCA:Wall_C2_4_2_Production.
 
 DCA:Wall_C2_4_2_Production
