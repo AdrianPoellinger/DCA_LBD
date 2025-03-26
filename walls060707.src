@@ -1,0 +1,224 @@
+DEF WALLS060707()
+
+;what does EXT mean?????
+EXT  BAS (BAS_COMMAND  :IN,REAL  :IN)
+EXT APATH (GLUEPATH_TYP  :IN,INT  :IN, BOOL :IN, BOOL :IN)
+
+;---VEREINBARUNGSTEIL
+DECL BRICK_TYP myBRICK
+DECL GLUEPATH_TYP myPathL, myPathR
+DECL REAL E1_OFF	;offset of linear axis
+
+DECL REAL Z_OFF_WALL1	;manual z-height correction <---this value should be adaptable
+DECL REAL Z_OFF_WALL2	;manual z-height correction <---this value should be adaptable
+DECL REAL Z_OFF_WALL3	;manual z-height correction <---this value should be adaptable
+DECL REAL Z_OFF_WALL4	;manual z-height correction <---this value should be adaptable
+DECL REAL myZ_OFF	;index
+
+DECL REAL X_OFF, Y_OFF
+
+DECL REAL Z_BRICK
+DECL REAL BRICK_H
+DECL REAL GAP_H
+
+DECL INT BASE_W1, BASE_W2, BASE_W3, BASE_W4, BASE_INI	;index of base for each wall
+DECL INT BASE_BRICK; index of base for brick with external tool
+DECL INT TOOL_GRIPPER, TOOL_GLUE	;index of tools
+DECL E6POS myPOS
+
+DECL INT I,J,K,M,N, NUM_WALLS, NUM_ROW_myWALL, myBASE	;index
+DECL BOOL EVEN, GLUE
+;DECL GLUEPATH_TYP myADPATH[]
+
+;---INITIALISIERUNG
+
+;------------------------------------------
+;insert nuber of walls to be build parallel
+NUM_WALLS=4
+;------------------------------------------
+
+BRICK_H=61
+GAP_H=0.08
+E1_OFF=-1700
+Z_OFF_WALL1=15.0
+Z_OFF_WALL2=15.0
+Z_OFF_WALL3=15.0
+Z_OFF_WALL4=15.0
+
+X_OFF=60.0
+Y_OFF=60.0
+
+EVEN=FALSE
+GLUE=FALSE
+
+;the idea is to build four walls parallel
+BASE_W1=10
+BASE_W2=11
+BASE_W3=12
+BASE_W4=13
+BASE_INI=BASE_W4
+
+TOOL_GRIPPER=14
+
+
+;---ANWEISUNGEN
+
+BAS (#INITMOV,0 )	;init
+
+;SAK move
+$BWDSTART=FALSE
+PDAT_ACT={VEL 100.0,ACC 100.0,APO_DIST 100.0}
+FDAT_ACT={TOOL_NO 14,BASE_NO 0,IPO_FRAME #BASE,POINT2[] " "}
+BAS(#PTP_PARAMS,100)
+PTP $H_POS
+
+I=0	;row strating at 0
+M=1	;wall starting at 1 (counting from window to linear axis)
+N=1	;brick in row starting at 1
+
+FOR I=0 TO (NUM_ROWS_TOTAL-1)
+	;loop through every row
+	EVEN=NOT EVEN
+	
+	FOR J=M TO NUM_WALLS
+		;loop through each wall
+		M=1
+		SWITCH J
+			CASE 1
+				NUM_ROW_myWALL=NUM_BRICKS_ROW_1
+				myBASE=BASE_W1
+				myZ_OFF=Z_OFF_WALL1
+			CASE 2
+				NUM_ROW_myWALL=NUM_BRICKS_ROW_2
+				myBASE=BASE_W2
+				myZ_OFF=Z_OFF_WALL2
+			CASE 3
+				NUM_ROW_myWALL=NUM_BRICKS_ROW_3
+				myBASE=BASE_W3
+				myZ_OFF=Z_OFF_WALL3
+			CASE 4
+				NUM_ROW_myWALL=NUM_BRICKS_ROW_4
+				myBASE=BASE_W4
+				myZ_OFF=Z_OFF_WALL4
+		ENDSWITCH	
+		
+		FOR  K=N TO NUM_ROW_myWALL
+			N=1;
+			;loop through every brick in one row
+			
+			SWITCH J
+			CASE 1
+				myBRICK=WALL_1[K+(I*NUM_ROW_myWALL)]
+				IF myBRICK.ADPATH_L>0 THEN
+					myPathL=ADPATH_L_1[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+				IF myBRICK.ADPATH_R>0 THEN
+					myPathR=ADPATH_R_1[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+			CASE 2
+				myBRICK=WALL_2[K+(I*NUM_ROW_myWALL)]
+				IF myBRICK.ADPATH_L>0 THEN
+					myPathL=ADPATH_L_2[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+				IF myBRICK.ADPATH_R>0 THEN
+					myPathR=ADPATH_R_2[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+			CASE 3
+				myBRICK=WALL_3[K+(I*NUM_ROW_myWALL)]
+				IF myBRICK.ADPATH_L>0 THEN
+					myPathL=ADPATH_L_3[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+				IF myBRICK.ADPATH_R>0 THEN
+					myPathR=ADPATH_R_3[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+			CASE 4
+				myBRICK=WALL_4[K+(I*NUM_ROW_myWALL)]
+				IF myBRICK.ADPATH_L>0 THEN
+					myPathL=ADPATH_L_4[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+				IF myBRICK.ADPATH_R>0 THEN
+					myPathR=ADPATH_R_4[K+(I*NUM_ROW_myWALL)]
+				ENDIF
+		ENDSWITCH	
+			
+			
+			Z_BRICK=myBRICK.ROW*(BRICK_H+GAP_H)
+			
+			;set position
+			IF EVEN THEN
+				IF K==1 THEN
+					myPOS.X=X_OFF
+				ELSE
+					myPOS.x=INTERVAL1+((K-2)*INTERVAL0)+X_OFF
+				ENDIF
+			ELSE
+				IF K==NUM_ROW_myWALL THEN
+					myPOS.x=60+INTERVAL1+((K-2)*INTERVAL0)+X_OFF
+				ELSE
+					myPOS.x=60+((K-1)*INTERVAL0)+X_OFF
+				ENDIF
+			ENDIF
+			
+			myPOS.Y=Y_OFF
+			myPOS.Z=Z_BRICK+500+myZ_OFF
+			myPOS.A=myBRICK.ROT-90
+			myPOS.B=90
+			myPOS.C=0
+			myPOS.E1=E1_OFF-myPOS.X
+			
+			;get brick
+			IF myBRICK.TYPE == 0 THEN
+				GET_FULLBRICK()
+			ELSE 
+				GET_HALFBRICK()
+			ENDIF
+			
+			;here a subprogram will be called to apply glue onto the brick
+			IF myBRICK.ADPATH_L>0 THEN
+				APATH(myPathL, myBRICK.ADPATH_L, GLUE, (myBRICK.ADPATH_R>0))
+			ENDIF
+			IF myBRICK.ADPATH_R>0 THEN
+				APATH(myPathR, myBRICK.ADPATH_R, GLUE, FALSE)
+			ENDIF
+			
+			;pos +500
+			FDAT_ACT.BASE_NO=BASE_INI
+			FDAT_ACT.TOOL_NO=TOOL_GRIPPER
+			FDAT_ACT.IPO_FRAME=#BASE
+			BAS(#PTP_PARAMS,100)
+			PTP myPOS C_PTP
+			
+			;pos +50
+			FDAT_ACT.BASE_NO=myBASE
+			LDAT_ACT={VEL 2.0,ACC 100.0,APO_DIST 100.0,APO_FAC 50.0,ORI_TYP #VAR}
+			BAS(#CP_PARAMS,2)
+			myPOS.Z=Z_BRICK+80+myZ_OFF
+			LIN myPOS C_VEL
+			
+			;pos +/-0
+			BAS(#CP_PARAMS,0.1)
+			myPOS.Z=Z_BRICK+myZ_OFF
+			LIN myPOS
+			
+			;open gripper
+			$OUT[7]=FALSE
+			$OUT[8]=TRUE
+			WAIT SEC 0.25
+		
+			;pos +200
+			BAS(#CP_PARAMS,2)
+			myPOS.Z=Z_BRICK+200+myZ_OFF
+			LIN myPOS C_VEL
+			
+			;pos +800
+			FDAT_ACT.BASE_NO=BASE_INI
+			myPOS.Z=Z_BRICK+800+myZ_OFF
+			myPOS.Y=-200+Y_OFF
+			BAS(#PTP_PARAMS,100)
+			PTP myPOS C_PTP
+			
+		ENDFOR
+	ENDFOR
+ENDFOR
+
+END
